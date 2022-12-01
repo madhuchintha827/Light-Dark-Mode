@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dark-mode {
+  background-color: #000000;
+  text-align: center;
+  border-radius: 10px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: #000000;
+}
+
+.heading {
+  font-size: 25px;
+}
+.button {
+  border: 2px solid #000000;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+  }
+  .light-mode {
+    min-width: 450px;
+  }
+  .dark-mode {
+    min-width: 450px;
+  }
+}
